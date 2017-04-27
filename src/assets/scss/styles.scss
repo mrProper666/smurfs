@@ -1,0 +1,447 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #000;
+  overflow-x: hidden;
+}
+.screens-wrapper {
+  position: relative;
+  //margin: 0 auto;
+  //background-color: white;
+  &>div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include breakpoint(small) {
+      background-position: 10% center;
+    }
+  }
+}
+.screen {
+  display: none;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.banner {
+  margin-top: 2vh;
+  &.inner {
+    text-align: center;
+    img {
+      @include breakpoint(small) {
+        width: 75%;
+      }
+      @include breakpoint(medium) {
+        width: auto;
+      }
+    }
+  }
+  &.movie-name {
+    margin-top: 4vh;
+    img {
+      @include breakpoint(small) {
+        width: 85%;
+      }
+      @include breakpoint(medium) {
+        width: auto;
+      }
+    }
+  }
+  &.promo,
+  &.end {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    img {
+      visibility: hidden;
+    }
+  }
+  &.promo {
+    @include breakpoint(small) {
+      background-image: url(../img/key-visual-mobile.png);
+    }
+    @include breakpoint(medium) {
+      background-image: url(../img/key-visual.png);
+    }
+  }
+  &.end {
+    @include breakpoint(small) {
+      background-image: url(../img/key-visual-end-mobile.png);
+    }
+    @include breakpoint(medium) {
+      background-image: url(../img/key-visual-end2.png);
+    }
+  }
+}
+.game-content {
+  //width: 100%;
+}
+.screen .image-bg {
+  position: absolute;
+}
+.screen-welcome {
+  background-image: url(../img/main-bg.jpg);
+  z-index: 10;
+  .screen {
+    min-height: 60vh;
+  }
+}
+.screen-q1 {
+  background-image: url(../img/smurfs_background2.jpg);
+  @include breakpoint(medium) {
+    background-image: url(../img/smurfs_background.jpg);
+  }
+  z-index: 9;
+}
+.screen-q2 {
+  background-image: url(../img/smurfs_background2.jpg);
+  @include breakpoint(medium) {
+    background-image: url(../img/smurfs_background.jpg);
+  }
+  z-index: 8;
+}
+.screen-q3 {
+  background-image: url(../img/smurfs_background2.jpg);
+  @include breakpoint(medium) {
+    background-image: url(../img/smurfs_background.jpg);
+  }
+  z-index: 7;
+}
+.screen-end {
+  background-image: url(../img/main-bg.jpg);
+  z-index: 6;
+  text-align: center;
+}
+.action-screen ul {
+  /*padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 251px;
+  left: 74px;*/
+}
+.action-screen ul li {
+  list-style: none;
+  @include breakpoint(small) {
+    margin-bottom: 10px;
+  }
+  @include breakpoint(medium) {
+    margin-bottom: 20px;
+  }
+}
+.action-screen ul li a {
+  @include breakpoint(small) {
+    padding: 11px 0px 5px;
+  }
+  @include breakpoint(medium) {
+    padding: 26px 0px 20px;
+    min-width: 250px;
+  }
+}
+.actions-wrapper {
+  position: relative;
+  //border-bottom: 1px solid #999;
+  margin: 20% 0 15px;
+  @include breakpoint(small) {
+    margin-top: 3%;
+    padding: 15px 0 20px;
+  }
+  @include breakpoint(medium) {
+    margin: 5% 0 15%;
+    padding: 25px 0 20px;
+  }
+}
+.hidden {
+  display: none;
+}
+.screen.visible,
+.hidden.visible {
+  display: block !important;
+}
+.game-action {
+  padding: 33px 0px 27px;
+  background-color: #ffc515;
+  border-radius: 50px;
+  text-align: center;
+  display: block;
+  min-width: 200px;
+  box-shadow: 2px 2px 0 #8f6107;
+}
+.start-game,
+.game-action.start,
+.game-action.end {
+  background-color: #b4cc00;
+  box-shadow: 2px 2px 0 #9bae0e;
+}
+.start-game {
+  img {
+    @include breakpoint(small) {
+      width: 90%;
+    }
+    @include breakpoint(medium) {
+      width: auto;
+    }
+  }
+}
+.game-action.disabled {
+  background-color: #c3cfda;
+  cursor: not-allowed;
+  box-shadow: 2px 2px 0 #b4b4b4;
+}
+.game-action.disabled.right img,
+.game-action.disabled.wrong img,
+.game-action.disabled.not-right img {
+  visibility: hidden;
+}
+.game-action.disabled.wrong:after,
+.game-action.disabled.not-right:after {
+  content: url(../img/wrong.png);
+  display: block;
+  position: absolute;
+  width: 49px;
+  height: 38px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.game-action.disabled.right:after {
+  content: url(../img/right.png);
+  display: block;
+  position: absolute;
+  width: 49px;
+  height: 38px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.game-action.disabled:hover,
+.game-action.disabled:focus,
+.game-action.disabled:active {
+  box-shadow: 2px 2px 0 #b4b4b4;
+  cursor: not-allowed;
+}
+.game-action.disabled:hover:before,
+.game-action.disabled:focus:before,
+.game-action.disabled:active:before {
+  display: none;
+}
+.game-action.disabled.right {
+  background-color: #b4cc00;
+  box-shadow: 2px 2px 0 #9bae0e;
+}
+.game-action.disabled.wrong {
+  background-color: #ef1626;
+  box-shadow: 2px 2px 0 #ae1520;
+}
+.game-action > img {
+  pointer-events: none;
+}
+.start-game,
+.game-action.start,
+.game-action.end {
+  //position: absolute;
+  //top: 458px;
+  //left: 50%;
+  //transform: translateX(-50%);
+  border-radius: 60px;
+  @include breakpoint(small) {
+    padding: 20px 20px;
+  }
+  @include breakpoint(medium) {
+    padding: 36px 55px;
+  }
+}
+.game-action.end {
+  @include breakpoint(small) {
+    padding: 20px 20px 16px;
+  }
+}
+.desktop-absolute {
+  /*position: absolute;
+  top: 10%;
+  width: 100%;*/
+}
+.character-wrapper {
+  position: relative;
+  height: 50vh;
+  @include breakpoint(small) {
+    height: 45vh;
+    margin-top: -3%;
+  }
+  @include breakpoint(medium) {
+    height: 50vh;
+    margin-top: 0;
+  }
+  .character {
+    position: absolute;
+    //top: 50%;
+    left: 25%;
+    transform: translateX(-50%);
+    @include breakpoint(small) {
+      left: 50%;
+      width: 86%;
+      height: 86%;
+    }
+    @include breakpoint(medium) {
+      left: 25%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  img {
+    @include breakpoint(small) {
+      width: 75%;
+    }
+    @include breakpoint(medium) {
+      width: auto;
+    }
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+#share {
+  //min-width: 320px;
+  //padding: 20px 20px 15px;
+}
+.loading {
+  //display: none;
+  //position: absolute;
+  /*left: 0;
+  right: 0;
+  top: 0;*/
+  //top: 5%;
+  z-index: 199;
+  width: 100%;
+  text-align: center;
+  padding: 5% 0;
+}
+.screen hr {
+  width: 95%;
+  background-color: #dbdbdb;
+  height: 1px;
+  border: none;
+}
+
+
+/* FOOTER */
+footer {
+  /*width: 810px;*/
+  margin: 0 auto;
+  background-color: #000;
+}
+footer hr {
+  width: 95%;
+  background-color: #dbdbdb;
+  height: 1px;
+  border: none;
+}
+footer .top {
+  background-color: #fff;
+}
+footer .bottom {
+  background-color: #e9ebee;
+  padding: 25px 30px;
+}
+footer span {
+  display: block;
+}
+.fib {
+
+}
+.fib-card {
+  /*float: right;*/
+}
+.alexandra,
+.peyo {
+  /*float: right;*/
+}
+.created-by {
+  /*float: right;*/
+}
+
+
+/* Radial Out */
+.hvr-radial-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  /*box-shadow: 0 0 1px rgba(0, 0, 0, 0);*/
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  /*background: #e1e1e1;*/
+  -webkit-transition-property: color box-shadow;
+  transition-property: color box-shadow;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f1a400;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-radial-out.start:before,
+.hvr-radial-out.end:before {
+  background: #67a000;
+}
+.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+  color: white;
+  box-shadow: 2px 2px 0 #5d4006;
+  outline: none;
+}
+.hvr-radial-out.start:hover, .hvr-radial-out.start:focus, .hvr-radial-out.start:active,
+.hvr-radial-out.end:hover, .hvr-radial-out.end:focus, .hvr-radial-out.end:active {
+  box-shadow: 2px 2px 0 #677309;
+}
+.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  
+  .desktop-absolute {
+    //position: absolute;
+    //top: 35%;
+  }
+  .actions-wrapper {
+    //position: static;
+  }
+  .character-wrapper {
+    //position: static;
+    //transform: none;
+  }
+
+}

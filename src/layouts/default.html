@@ -1,0 +1,287 @@
+<?php
+
+  set_include_path(get_include_path().PATH_SEPARATOR.dirname(dirname(__FILE__)).'/library/');
+  require_once('config.php');
+
+?>
+
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smurfs 3</title>
+
+    <meta property="fb:app_id" content="<?php echo FACEBOOK_APP_ID ?>" />
+    <meta property="og:title" content="Viral Game" />
+    <meta property="og:description" content="Viral Game Description" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fantasive.com/thesmurfs3/" />
+
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <script type="text/javascript" src="{{root}}assets/modernizr-svg.js"></script>
+    <script>
+      /*(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXXXXX-1', 'fantasive.com');
+      ga('send', 'pageview');*/
+    </script>
+  </head>
+  <body>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+
+    <script src="{{root}}assets/js/app.js"></script>
+    <script type="text/javascript" src="{{root}}assets/audio/audiojs/audio.min.js"></script>
+    <script type="text/javascript" src="{{root}}assets/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{{root}}assets/greensock/TweenMax.min.js"></script>
+    <script type="text/javascript" src="{{root}}assets/pointer_events_polyfill.js"></script>
+
+    <script type="text/javascript" src="{{root}}assets/game-scripts.js"></script>
+
+    <script>
+/*      // This is called with the results from from FB.getLoginStatus().
+      function statusChangeCallback(response) {
+        // The response object is returned with a status field that lets the
+        // app know the current login status of the person.
+        // Full docs on the response object can be found in the documentation
+        // for FB.getLoginStatus().
+        if (response.status === 'connected') {
+          // Logged into your app and Facebook.
+          $('#scr0-start-game').attr('onclick', '').on('click', function(e){
+            SMURFS.StartGame();
+          });
+          
+          getUserData(function(user){
+            if(user.status == 'finished'){
+              SMURFS.GotoEnd();
+            }else{
+              SMURFS.HideLoading();
+            }
+          });
+
+          // SMURFS.HideLoading();
+        } else if (response.status === 'not_authorized') {
+          // The person is logged into Facebook, but not your app.
+          SMURFS.HideLoading();
+        } else {
+          // The person is not logged into Facebook, so we're not sure if
+          // they are logged into this app or not.
+          facebookLogin();
+        }
+      }
+
+      // This function is called when someone finishes with the Login
+      // Button.  See the onlogin handler attached to it in the sample
+      // code below.
+      function checkLoginState() {
+        FB.getLoginStatus(function(response) {
+          statusChangeCallback(response);
+        });
+      }
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : parseInt('<?php echo FACEBOOK_APP_ID; ?>'),
+          cookie     : true,  // enable cookies to allow the server to access 
+                              // the session
+          xfbml      : true,  // parse social plugins on this page
+          version    : 'v2.8' // use graph api version 2.8
+        });
+
+        // Now that we've initialized the JavaScript SDK, we call 
+        // FB.getLoginStatus().  This function gets the state of the
+        // person visiting this page and can return one of three states to
+        // the callback you provide.  They can be:
+        //
+        // 1. Logged into your app ('connected')
+        // 2. Logged into Facebook, but not your app ('not_authorized')
+        // 3. Not logged into Facebook and can't tell if they are logged into
+        //    your app or not.
+        //
+        // These three cases are handled in the callback function.
+
+        FB.getLoginStatus(function(response) {
+          FB.Canvas.setSize({width: 810, height: 914});
+          statusChangeCallback(response);
+        });
+      };
+
+      // Load the SDK asynchronously
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+      function sendRequestViaMultiFriendSelector() {
+        FB.ui({method: 'apprequests',
+          message: 'Спечели безплатен билет за премиерата на The Smurfs 3'
+        }, requestCallback);
+      }
+
+      function requestCallback(response) {
+        // console.log(response)
+      }
+
+      function facebookLogin(){
+        FB.login(function(response) {
+          if (response.authResponse) {
+            //user just authorized your app
+            getUserData(function(user){
+              if(user.status == 'finished'){
+                SMURFS.GotoEnd();
+              }else{
+                SMURFS.StartGame();
+              }
+            });
+          }
+        }, {scope: 'public_profile,email', return_scopes: true});
+      }
+
+      function getUserData(callback) {
+        getUserFromFB(function(response){
+          saveToDb(response, function(){
+            getUser(response, function(user){
+              callback(user);
+            });
+          });
+        });
+      }
+
+      function getUserFromFB(callback){
+        FB.api('/me?fields=id,first_name,last_name,email,picture', function(response) {
+          return callback(response);
+        });
+      }
+
+      function saveToDb(data, callback) {
+        data.type = "save";
+
+        var request = $.ajax({
+          url: "save.php",
+          method: "POST",
+          data: $.param(data),
+          dataType: "json",
+          async: true
+        });
+
+        request.done(function( msg ) {
+          if(msg.status === 'success') {
+            callback(); 
+          } else {
+            // data is not valid
+          }
+          
+        });
+         
+        request.fail(function( jqXHR, textStatus ) {
+          // alert( "Request failed: " + textStatus );
+        });
+      }
+
+      function getUser(data, callback) {
+        data.type = "user";
+
+        var request = $.ajax({
+          url: "save.php",
+          method: "POST",
+          data: $.param(data),
+          dataType: "json",
+          async: true
+        });
+
+        request.done(function( msg ) {
+          if(msg.status === 'success') {
+            callback(msg.DataSet.shift()); 
+          } else {
+            // data is not valid
+          }
+          
+        });
+         
+        request.fail(function( jqXHR, textStatus ) {
+          // alert( "Request failed: " + textStatus );
+        });
+      }
+
+      function getUsers(status, callback) {
+        var data = { type: 'list' , status: status};
+
+        var request = $.ajax({
+          url: "save.php",
+          method: "POST",
+          data: $.param(data),
+          dataType: "json",
+          async: true
+        });
+
+        request.done(function( msg ) {
+          if(msg.status === 'success') {
+            callback(msg.DataSet); 
+          } else {
+            // data is not valid
+          }
+          
+        });
+         
+        request.fail(function( jqXHR, textStatus ) {
+          // alert( "Request failed: " + textStatus );
+        });
+      }
+
+      function updateStatus(data, callback){
+        data.type = "status";
+
+        var request = $.ajax({
+          url: "save.php",
+          method: "POST",
+          data: $.param(data),
+          dataType: "json",
+          async: true
+        });
+
+        request.done(function( msg ) {
+          if(msg.status === 'success') {
+            callback(); 
+          } else {
+            // data is not valid
+          }
+          
+        });
+         
+        request.fail(function( jqXHR, textStatus ) {
+          // alert( "Request failed: " + textStatus );
+        });
+      }
+
+      function setUserStatus(){
+        getUserFromFB(function(response){
+          if(response){
+            updateStatus(response, function(){
+              // success message
+            });
+          }
+        });
+      }
+
+      // getUsers('finished',function(users){
+      //   if(users.length){
+      //     $.each(users, function( index, value ) {
+      //       console.log(value.facebook_first_name + ' ' + value.facebook_last_name + ' ' + value.facebook_picture);
+      //     });
+      //   }
+      // });
+*/
+    </script>
+  </body>
+</html>

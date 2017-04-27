@@ -1,0 +1,1162 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curre",
+				"currentScreen"
+			],
+			[
+				"goto",
+				"gotoNextScreen"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"SM",
+				"SMURFS.StartGame\t(default.html)"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"lin",
+				"line-through"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"prev-",
+				"prev-slideshow.svg\t(index.html)"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"slide",
+				"slide-info"
+			],
+			[
+				"owl",
+				"owl.carousel"
+			],
+			[
+				"top",
+				"topbar\t(topbar.html)"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"hide",
+				"hidden"
+			],
+			[
+				"floorpla",
+				"floorplan\t(property-general.html)"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"med",
+				"medium-push-3\t(index.html)"
+			],
+			[
+				"sma",
+				"small-up-1\t(index.html)"
+			],
+			[
+				"estate",
+				"estates-info"
+			],
+			[
+				"medium",
+				"medium-push-3\t(index.html)"
+			],
+			[
+				"obj",
+				"object-info\t(index.html)"
+			],
+			[
+				"me",
+				"medium-5"
+			],
+			[
+				"prpert",
+				"property-general.html\t(index.html)"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"property",
+				"property-general.html"
+			],
+			[
+				"blog-",
+				"blog-article.html\t(index.html)"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"rem",
+				"rem-calc\t(_home.scss)"
+			],
+			[
+				"te",
+				"text-right\t(index.html)"
+			],
+			[
+				"impo",
+				"important\t(app.js)"
+			],
+			[
+				"back",
+				"background-position\t(_about.scss)"
+			],
+			[
+				"ba",
+				"background-repeat\t(_about.scss)"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"sc",
+				"scale-color\t(_about.scss)"
+			],
+			[
+				"tel",
+				"tel:+35952610746"
+			],
+			[
+				"mail",
+				"mailto:sales@planex.bg"
+			],
+			[
+				"cont",
+				"contacts"
+			],
+			[
+				"font",
+				"font-family\t(_about.scss)"
+			],
+			[
+				"esate",
+				"estate-complete-txt\t(_about.scss)"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top\t(_footer.scss)"
+			],
+			[
+				"cate",
+				"categories\t(index.html)"
+			],
+			[
+				"ser",
+				"services.html\t(footer.html)"
+			],
+			[
+				"ver",
+				"vertical-align\t(index.html)"
+			],
+			[
+				"rem-",
+				"rem-calc"
+			],
+			[
+				"backgroun",
+				"background-size\t(index.html)"
+			],
+			[
+				"backgro",
+				"background-repeat\t(_home.scss)"
+			],
+			[
+				"per",
+				"performance-txt.svg"
+			],
+			[
+				"marg",
+				"margin-bottom\t(_footer.scss)"
+			],
+			[
+				"qui",
+				"quick-search\t(index.html)"
+			],
+			[
+				"searc",
+				"search-form\t(index.html)"
+			],
+			[
+				"sear",
+				"search-form\t(index.html)"
+			],
+			[
+				"pri",
+				"primary\t(_settings.scss)"
+			],
+			[
+				"mde",
+				"medium-6\t(index.html)"
+			],
+			[
+				"inli",
+				"inline-block\t(_topbar.scss)"
+			],
+			[
+				"float",
+				"float\t(_topbar.scss)"
+			],
+			[
+				"tex",
+				"text-right\t(topbar.html)"
+			],
+			[
+				"are",
+				"area-to"
+			],
+			[
+				"price",
+				"price-to"
+			],
+			[
+				"esta",
+				"estate-type-search"
+			],
+			[
+				"reg",
+				"region-search"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"input",
+				"input-box"
+			],
+			[
+				"pat",
+				"path\t(_icons.scss)"
+			],
+			[
+				"ev_",
+				"ev_target"
+			],
+			[
+				"ow",
+				"owl.carousel"
+			],
+			[
+				"set",
+				"set_carousel"
+			],
+			[
+				"wh",
+				"white\t(index.html)"
+			],
+			[
+				"tra",
+				"transparent\t(_realtyp.scss)"
+			],
+			[
+				"menu",
+				"menu-item\t(topbar.html)"
+			],
+			[
+				"place",
+				"placeholder\tAttr"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"category",
+				"category1"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"object",
+				"object-wrapper"
+			],
+			[
+				"list",
+				"list-n\tlist-style-type: none;"
+			],
+			[
+				"vertical",
+				"vertical-align\t(_global.scss)"
+			],
+			[
+				"sec",
+				"section-wrapper"
+			],
+			[
+				"small",
+				"small-12"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"pla",
+				"placehold.it/380x260"
+			],
+			[
+				"mediu",
+				"medium-2"
+			],
+			[
+				"mui",
+				"mui-slide\t(transitions.md)"
+			],
+			[
+				"dis",
+				"display\t(_top-bar.scss)"
+			],
+			[
+				"coo",
+				"cookie"
+			],
+			[
+				"new",
+				"newcookie"
+			],
+			[
+				"co",
+				"cookie"
+			],
+			[
+				"out",
+				"outerWidth"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"sch",
+				"school"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"clubp",
+				"clubpage"
+			],
+			[
+				"ico",
+				"icons\t(_sc.scss)"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"dar",
+				"dark-gray"
+			],
+			[
+				"SC",
+				"SC-dark-blue-hover"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"cal",
+				"rem-calc"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"animat",
+				"animation-name"
+			],
+			[
+				"anima",
+				"animation-name"
+			],
+			[
+				"animatio",
+				"animation-duration"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bca",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"bacgr",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 9139,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/pages/index.html",
+			"settings":
+			{
+				"buffer_size": 8442,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 8637,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "styles.scss"
+			}
+		},
+		{
+			"file": "src/assets/game-scripts.js",
+			"settings":
+			{
+				"buffer_size": 5039,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"npm update -g typescript",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/smurfs",
+		"/E/smurfs/src",
+		"/E/smurfs/src/assets",
+		"/E/smurfs/src/assets/scss"
+	],
+	"file_history":
+	[
+		"/E/smurfs/src/assets/game-scripts.js",
+		"/E/dc/fantasive/thesmurfs/app/.htaccess",
+		"/E/dc/fantasive/thesmurfs/app/index.php",
+		"/E/smurfs/config.yml",
+		"/E/dc/fantasive/thesmurfs/site/index.html",
+		"/E/smurfs/src/assets/scss/app.scss",
+		"/E/smurfs!/index.html",
+		"/E/smurfs!/css/styles.css",
+		"/E/smurfs/gulpfile.babel.js",
+		"/E/smurfs/package.json",
+		"/E/rp/bower_components/foundation-sites/scss/components/_callout.scss",
+		"/E/rp/src/layouts/search.html",
+		"/E/rp/src/pages/property-general.html",
+		"/E/rp/src/pages/index.html",
+		"/E/rp/src/assets/scss/app.scss",
+		"/E/rp/src/assets/scss/components/_realtyp.scss",
+		"/E/rp/src/pages/object-video.html",
+		"/E/rp/src/assets/scss/components/_projects.scss",
+		"/E/rp/src/layouts/default.html",
+		"/E/rp/src/pages/residential.html",
+		"/E/rp/src/assets/scss/components/_object.scss",
+		"/E/rp/src/assets/scss/components/_home.scss",
+		"/E/rp/src/assets/scss/components/_about.scss",
+		"/E/rp/src/assets/scss/components/_top-offer-block.scss",
+		"/E/rp/src/assets/scss/components/_property.scss",
+		"/E/rp/src/assets/scss/components/_topbar.scss",
+		"/E/rp/src/partials/topbar.html",
+		"/E/rp/src/assets/scss/components/_forms.scss",
+		"/E/rp/src/assets/scss/components/_footer.scss",
+		"/E/rp/node_modules/hover.css/scss/_options.scss",
+		"/E/rp/config.yml",
+		"/E/rp/package.json",
+		"/E/rp/src/assets/scss/_settings.scss",
+		"/E/rp/src/assets/addons.js",
+		"/E/rp/src/pages/contact.html",
+		"/E/rp/src/assets/scss/components/_contact.scss",
+		"/E/rp/src/layouts/blogpost.html",
+		"/E/rp/src/assets/scss/components/_blog.scss",
+		"/E/rp/src/pages/blog-article.html",
+		"/E/rp/src/assets/scss/components/_mobile.scss",
+		"/E/rp/src/assets/scss/components/_fonts.scss",
+		"/E/rp/src/layouts/contact.html",
+		"/E/rp/src/partials/object-header.html",
+		"/E/rp/src/pages/object-general.html",
+		"/E/rp/src/pages/object-services.html",
+		"/E/rp/src/partials/header.html",
+		"/E/rp/src/assets/scss/components/_services.scss",
+		"/E/rp/src/layouts/services.html",
+		"/E/rp/src/layouts/property.html",
+		"/E/rp/src/layouts/projects.html",
+		"/E/rp/src/layouts/object.html",
+		"/E/rp/src/layouts/blog.html",
+		"/E/rp/src/layouts/about.html",
+		"/E/rp/bower_components/foundation-sites/scss/typography/_base.scss",
+		"/E/rp/src/assets/js/addons.js",
+		"/E/rp/src/assets/js/app.js",
+		"/E/rp/src/pages/object-estates.html",
+		"/E/rp/src/pages/object-gallery.html",
+		"/E/rp/src/pages/object-topoffers.html",
+		"/E/rp/src/partials/object-submenu.html",
+		"/E/rp/src/pages/service-5.html",
+		"/E/rp/src/pages/service-4.html",
+		"/E/rp/src/pages/service-2.html",
+		"/E/rp/src/pages/service-1.html",
+		"/E/rp/src/pages/service-3.html",
+		"/E/rp/src/pages/about.html",
+		"/E/rp/src/pages/blog.html",
+		"/E/rp/src/partials/footer.html",
+		"/E/rp/src/partials/object-bottom.html",
+		"/E/rp/src/partials/property-header.html",
+		"/E/rp/src/partials/property-submenu.html",
+		"/E/rp/src/pages/object-brochure.html",
+		"/E/rp/src/pages/all-properties.html",
+		"/E/rp/src/pages/business.html",
+		"/E/rp/src/pages/holiday.html",
+		"/E/rp/src/assets/scss/components/_header.scss",
+		"/E/rp/bower_components/foundation-sites/scss/forms/_select.scss",
+		"/E/rp/bower.json",
+		"/E/rp/node_modules/panini/helpers/ifLayout.js",
+		"/E/rp/src/layouts/objects.html",
+		"/E/rp/src/partials/services-submenu.html",
+		"/E/rp/src/assets/scss/components/_icons.scss",
+		"/E/rp/src/pages/services.html",
+		"/E/rp/src/assets/owl-carousel/owl.theme.css",
+		"/E/rp/bower_components/foundation-sites/scss/components/_button.scss",
+		"/E/rp/bower_components/foundation-sites/scss/util/_mixins.scss",
+		"/E/rp/src/assets/scss/components/_forms.less",
+		"/E/rp/src/assets/owl-carousel/owl.carousel.js",
+		"/E/rp/src/assets/scss/components/font-awesome.min.css",
+		"/E/rp/src/assets/scss/_realtyp.scss",
+		"/C/Users/Bobb/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/rp/bower_components/foundation-sites/scss/_global.scss",
+		"/C/Users/Bobb/AppData/Local/Temp/fz3temp-1/home1.less",
+		"/C/Users/Bobb/AppData/Local/Temp/fz3temp-1/home.less",
+		"/E/rp/bower_components/foundation-sites/bower.json",
+		"/C/Users/Bobb/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Bobb/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Bobb/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/E/rp/bower_components/foundation-sites/scss/components/_top-bar.scss",
+		"/E/dc/prodesign/BACB/email/sign/src/pages/index.html",
+		"/E/dc/prodesign/BACB/email/sign/src/assets/scss/app.scss",
+		"/E/dc/prodesign/BACB/email/sign/src/pages/index-en.html",
+		"/E/SC_f62/src/partials/pageHeaderFilter.html",
+		"/E/SC_f62/src/partials/offcanvasPageHeader.html",
+		"/E/SC_f62/src/assets/js/app.js",
+		"/E/SC_f62/src/assets/scss/components/_topbar.scss",
+		"/E/SC_f62/src/assets/scss/_settings.scss",
+		"/E/SC_f62/src/assets/scss/components/_select.scss",
+		"/E/SC_f62/src/assets/scss/components/_sc.scss",
+		"/E/SC_f62/src/pages/clubcalendar.html",
+		"/E/SC_f62/src/pages/index.html",
+		"/E/SC_f62/src/pages/addpaymentdetails.html",
+		"/E/SC_f62/src/pages/schoolregistration.html",
+		"/E/SC_f62/src/partials/dashboardActivityStream.html",
+		"/E/SC_f62/src/pages/dashboard_parent.html",
+		"/E/SC_f62/src/pages/clubpagemembers_member_leader.html",
+		"/E/SC_f62/dist/assets/js/app.js",
+		"/E/SC_f62/config.yml",
+		"/E/SC_f62/src/pages/dashboard.html",
+		"/E/SC_f62/src/pages/clubpagemembers.html",
+		"/E/SC_f62/src/pages/clubpagesessions.html",
+		"/E/SC_f62/src/partials/clubPageSessions_Session.html",
+		"/E/SC_f62/src/assets/scss/components/_helpers.scss",
+		"/E/SC_f62/src/assets/scss/components/_clubitem.scss",
+		"/E/SC_f62/src/pages/clubpage.html",
+		"/E/SC_f62/src/partials/clubPageSidebar.html",
+		"/E/SC_f62/src/partials/clubItem.html",
+		"/E/SC_f62/src/pages/myclubz.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"game-action",
+			"startAction",
+			"gotoNextScreen",
+			"overlay",
+			"gotoNextScreen",
+			"start-game",
+			"start",
+			"{\n",
+			"hidden",
+			"col-sm",
+			"offset",
+			"im",
+			"assets/images/",
+			"images/",
+			"info-tabs",
+			"ed1f24",
+			"old",
+			"view-offer",
+			".estates-info",
+			".gray",
+			"top-offer-object",
+			"',\n",
+			"slide-info",
+			"placeholder",
+			");\n",
+			"../img/",
+			"anchor-color-hover",
+			"free",
+			"form",
+			"estate-info",
+			"estates-info",
+			"object-gallery",
+			"large-up-7",
+			"medium-up-7",
+			"\n        <div class=\"row small-up-4 medium-up-7 large-up-7 reserve\">\n          <div class=\"column\">Апартамент&nbsp;А-2</div>\n          <div class=\"column hide-for-small-only text-right\">А</div>\n          <div class=\"column hide-for-small-only text-right\">1</div>\n          <div class=\"column text-right\">2</div>\n          <div class=\"column hide-for-small-only text-right\">52 кв.м</div>\n          <div class=\"column text-right\">59 500&euro;</div>\n          <div class=\"column text-right status\">Резервиран</div>\n        </div>",
+			"background",
+			"background-position",
+			"linear-gradient",
+			"{}",
+			"object-info",
+			"info-tabs",
+			"font-size",
+			"article-date",
+			">\n",
+			"AboutPage",
+			"div",
+			"#",
+			"icon",
+			"object.html",
+			"object",
+			"object.html",
+			"hover",
+			"offers",
+			"carousel",
+			"offers-carousel",
+			"Top price",
+			"Levski",
+			"Briz",
+			"Varna",
+			"Aquarelle",
+			"Briz",
+			"Viva 3 - 2nd stage",
+			"Levski",
+			"Varna",
+			"Aquarelle",
+			">\n",
+			"експлаотация",
+			"primary",
+			"'service-1', ",
+			"pageName",
+			"icon",
+			"top-offer-object",
+			"carousel",
+			"to-portfolio",
+			"owl",
+			"\n\n      <div class=\"item-box\">\n        <a href=\"#\">\n          <img src=\"assets/img/service-3-portfolio.jpg\" alt=\"\" />\n        </a>\n      </div>",
+			"transition",
+			"assets",
+			"radius",
+			"share",
+			"Dropdown",
+			"{\n",
+			"body-font-family",
+			"palette",
+			"scale-color",
+			"category1",
+			"offer",
+			"actual",
+			"hline",
+			"hr",
+			"feedback",
+			"hr",
+			"\n    \n      <div class=\"top-offer-object\">\n        <div class=\"object-wrapper\">\n          <div class=\"object-image\"><img src=\"assets/img/top-1-tmp.jpg\" /></div> <!-- 380x260px -->\n          <div class=\"object-info\">\n            <h3 class=\"name lite\">Aquarelle 3</h3>\n            <span class=\"place\">\n              Varna, Briz\n            </span>\n            <div class=\"show-all-top-estates\">\n              <a href=\"#\" class=\"button hollow gray\">Show all from this object</a>\n            </div>\n          </div>\n        </div>\n        <div class=\"estates-info\">\n          <div class=\"row\">\n            <div class=\"small-6 columns\">\n              <div class=\"estate-type\">Apartment</div>\n              <div class=\"estate-area\">119sq.m</div>\n            </div>\n            <div class=\"small-6 columns text-right\">\n              <div class=\"old-price price\">97950 &euro;</div>\n              <div class=\"new-price price\">93000 &euro;</div>\n            </div>\n          </div>\n          <hr/>\n          <a href=\"#\" title=\"Top price\" class=\"view-offer\">View offer</a>\n        </div>\n      </div>",
+			"scale",
+			"069c95",
+			"family",
+			"offer-category",
+			"placeholder",
+			"text",
+			"global-radius",
+			"item",
+			"right",
+			"<h1",
+			">\n",
+			"069c95",
+			"gradient",
+			"bg-image-overlay",
+			"cover-bg-image",
+			"legacy-direction",
+			"2cd9a6",
+			"Roboto",
+			"\n@font-face {\n    font-family: 'hkgrotesk-medium';\n    src: url('hkgrotesk-medium-web.eot');\n    src: url('hkgrotesk-medium-web.eot?#iefix') format('embedded-opentype'),\n         url('hkgrotesk-medium-web.woff2') format('woff2'),\n         url('hkgrotesk-medium-web.woff') format('woff'),\n         url('hkgrotesk-medium-web.ttf') format('truetype'),\n         url('hkgrotesk-medium-web.svg#hkgrotesk-medium-web') format('svg');\n    font-weight: normal;\n    font-style: normal;\n}",
+			"pfregaldisplaypro-regular-webfont",
+			"Roboto",
+			"last-child",
+			"icon",
+			"show-all-top-estates",
+			"@extend",
+			"place-region-icon",
+			"scale-color",
+			"\n    <div class=\"small-12 medium-4 columns\">\n      <div class=\"actual-offer-object\">\n        <img src=\"http://placehold.it/380x260\" />\n        <div class=\"small-12 columns\">\n          <p>Offer 1 heading</p>\n          <a href=\"#\" class=\"button\">Go</a>\n        </div>\n      </div>\n    </div>",
+			"item",
+			"columns",
+			"slow",
+			"\"\n",
+			"22. Menu",
+			"';\n",
+			"checkb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"small",
+			"push",
+			"assets/img/",
+			"assets/images/",
+			"large-up-8",
+			"medium-up-8",
+			"AboutusPage",
+			"object-general.html",
+			"property",
+			"object-general.html",
+			"Подробна информация",
+			"кв. Левски",
+			"кв. Бриз",
+			"Варна",
+			"Акварел",
+			"кв. Бриз",
+			"Вива 3 - 2ри етап",
+			"кв. Левски",
+			"Варна",
+			"Акварел",
+			"експлоатация",
+			"layoutName",
+			"article",
+			"blog",
+			"09bb82",
+			"hkgrotesk-regular",
+			"hkgrotesk-regular-web",
+			"fast",
+			"$SC-red",
+			"$SC-orange",
+			"$SC-green",
+			"expanded",
+			"url('../img/",
+			"url(../img/",
+			"light",
+			"body-background",
+			"text",
+			"small-12"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2469,
+								2469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/pages/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7066,
+								7066
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/assets/scss/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5727,
+								5727
+							]
+						],
+						"settings":
+						{
+							"auto_name": "styles.scss",
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3735.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/assets/game-scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4153,
+								4168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1845.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sumrfs.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 333.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
